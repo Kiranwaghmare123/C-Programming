@@ -49,16 +49,4 @@ int main() {
     
     return 0;
 }
----
-  Here's the C program that generates and fills the `n x n` matrix based on your specified rules:
 
-### Explanation:
-1. **Takes user input (`n`)** ensuring it is within the range [1, 20].
-2. **Fills the matrix using nested loops**:
-   - **Diagonal (`i == j`)** → Square of 1-based index.
-   - **Above diagonal (`i < j`)** → Sum of indices `(i + j)`.
-   - **Below diagonal (`i > j`)** → Product of indices `(i * j)`.
-3. **Replaces values divisible by 7 with `-1`** and keeps count.
-4. **Displays the formatted matrix** and the count of `-1` values.
-
-Let me know if you need any modifications! 🚀
